@@ -4,9 +4,9 @@
   "description": "a Nuxt 3 starter template or boilerplate with a lot of useful features. Nuxt3 + Tailwindcss 3",
   "repository": {
     "type": "git",
-    "url": "git://github.com/viandwi24/nuxt3-awesome-starter"
+    "url": "git://github.com/vikim540/nuxt3-cmer"
   },
-  "author": "viandwi24",
+  "author": "CMER - 網絡部",
   "license": "MIT",
   "scripts": {
     "build": "nuxt build",
@@ -14,7 +14,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "start": "node .output/server/index.mjs",
-    "serve": "serve dist/",
+    "serve": "serve dist/", 
     "postinstall": "husky install",
     "lint": "eslint --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",
     "lintfix": "eslint --fix --ext \".ts,.js,.vue\" --ignore-path .eslintignore .",

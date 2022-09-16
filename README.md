@@ -1,80 +1,55 @@
-# Nuxt 3 Awesome Starter
-a Nuxt 3 starter template or boilerplate with a lot of useful features. and integrated with TailwindCSS 3.  
+# Nuxt 3  CMER 前端起始模板
+具有许多有用功能的 Nuxt 3 入门模板或样板。集成 TailwindCSS 3 。
 
-_This template was built to make it easier to create web projects using Nuxt 3. It was originally designed for coursework and portfolio templates. (hence there will be lots of ui components for easy reuse)_
+_该模板旨在让使用 Nuxt 3 创建 Web 项目使工作变得更加容易。因此结合了许多插件及 ui 组件_
 
-> **WARNING** \
-> Nuxt 3 now in RC version (Release Candidate) [But this template using Nuxt 3.x edge* (latest version)]  
-> Not recommended for production use.  
-> * Breaking changes tracker can be found [here](https://github.com/nuxt/framework/discussions/2883)  
-> * Roadmap can be found [here](https://v3.nuxtjs.org/community/roadmap)
+> **警告** \
+> Nuxt 3 现在是 RC 版本（测试版）[但此模板使用 Nuxt 3.x edge*（最新版本）]
+> 等出正式版会进行不定期更新.  
+> * 可以在此处找到重大更改 [here](https://github.com/nuxt/framework/discussions/2883)  
+> * 说明文档及路线图可以在这里找到 [here](https://v3.nuxtjs.org/community/roadmap)
 
-## Features
-- [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/) with [Windicss](https://windicss.org/)
+## 特征
+- [x] 💨 [Tailwind CSS v3](https://tailwindcss.com/) 带有 [Windicss](https://windicss.org/)
 - [x] ✨ [Headless UI](https://headlessui.dev/)
-- [x] 🔔 [Icon Pack Component (unplugin-icons)](https://icones.js.org/)
-- [x] 🛹 [State & Store Management (Pinia)](https://pinia.vuejs.org/)
-- [x] 🚩 [Localization (i18n) by @intlify](https://github.com/intlify/nuxt3) & Auto Generate Locales
-- [x] 📦 [Vue Composition Collection (Vueuse)](https://vueuse.org/)
-- [x] 📚 [Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
-- [x] 🌙 Switch Theme (light, dark, system, realtime)
-- [x] 🇮🇩 Language Switcher
-- [x] 🪝 Built-in Component & Layout
-- [x] Eslint & Prettier
-- [x] Husky & Commitlint
-- [x] Custom Workspace Snippets
+- [x] 🔔 [一个公共的字体图标库 Icon Pack Component (unplugin-icons)](https://icones.js.org/)
+- [x] 🛹 [状态及商店管理 State & Store Management (Pinia)](https://pinia.vuejs.org/)
+- [x] 🚩 [本地化的翻译工具 Localization (i18n) by @intlify](https://github.com/intlify/nuxt3) & Auto Generate Locales
+- [x] 📦 [Vue内容的集合 Composition Collection (Vueuse)](https://vueuse.org/)
+- [x] 📚 [Nuxt的内容管理器 在content/post 目录可以见到基于md文件即可产生对应文章页  Content Management System (Nuxt Content)](https://content.nuxtjs.org/) [SSR]
+- [x] 🌙 更符合现状发展的护眼及夜间模式 (light, dark, system, realtime)
+- [x] 💬 语言切换器
+- [x] 🔳 内置组件和布局
+- [x] 👨‍💻 代码美化及规则Eslint & Prettier 
+- [x] 🚠 检查提交描述Husky & Commitlint 
+- [x] 🛎️ 自定义工作区片段 Custom Workspace Snippets
 
-## To Do
-- [ ] Adding simple Unit Test
+## 计划
+- [ ] 完善企业模板
 - [ ] Adding HTTP Client
-- [ ] Configurable Theme
-  - [x] Primary Colors
-  - [x] Font
+- [ ] 主题外观配置颜色选项
+- [ ] 配置headless CMS 
+- [ ] 一键托管
+- [ ] 尽可能使修改变得容易
+  - [x] 默认的颜色选项
+  - [x] 字体及字号
 
-## Preview
-<table align="center">
-  <tr>
-    <td align="center" width="100%" colspan="2">
-      <img src="https://github.com/viandwi24/nuxt3-awesome-starter/blob/main/assets/images/preview_new.png?raw=true" alt="Preview" title="Preview">
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="75%">
-      <img src="https://github.com/viandwi24/nuxt3-awesome-starter/blob/main/assets/images/preview.gif?raw=true" alt="Preview" title="Preview">
-    </td>
-    <td align="center" width="25%">
-      <img src="https://github.com/viandwi24/nuxt3-awesome-starter/blob/main/assets/images/preview_mobile.gif?raw=true" alt="Preview" title="Preview">
-    </td>
-  </tr>
-</table>
-<p align="center">
-  <br>
-  <a href="https://nuxt3-awesome-starter.vercel.app/" target="_blank">
-    Live Demo
-  </a>
-  <br><br>
-  <a href="https://codesandbox.io/s/github/viandwi24/nuxt3-awesome-starter" title="Open In Code Sandbox">
-    <img src="https://img.shields.io/badge/Open%20in-CodeSandbox-blue?style=flat-square&logo=codesandboxg" alt="Open In Code Sandbox">
-  </a>
-  <br>
-  <a href="https://stackblitz.com/github/viandwi24/nuxt3-awesome-starter" title="Open In Stackblitz">
-    <img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt="Open In Stackblitz">
-  </a>
-</p>
-
-## Table of Contents
-- [Nuxt 3 Awesome Starter](#nuxt-3-awesome-starter)
-  - [Features](#features)
-  - [To Do](#to-do)
-  - [Preview](#preview)
-  - [Table of Contents](#table-of-contents)
-  - [Quick Start](#quick-start)
+## 预览
+ [链接地址](https://nuxt3.cmer.qcdz.vip/) 
+ 
+## 目录
+- [Nuxt 3 cmer](#nuxt-3-CMER)
+  - [特征](#特征)
+  - [计划](#计划)
+  - [预览](#预览)
+  - [目录](#目录)
+  - [快速启动](#快速启动)
     - [Start with this template](#start-with-this-template)
     - [Deploy as Static Site](#deploy-as-static-site)
-  - [Built-in Components](#built-in-components)
-  - [Notes](#notes)
+  - [内置组件](#内置组件)
+  - [笔记](#笔记)
     - [Nuxt Content](#nuxt-content)
-    - [Custom Workspace Snippets](#custom-workspace-snippets)
+    - [自定义工作区片段](#自定义工作区片段)
     - [Styles](#styles)
     - [Theme (Dark Mode)](#theme-dark-mode)
     - [Localization](#localization)
@@ -83,19 +58,23 @@ _This template was built to make it easier to create web projects using Nuxt 3. 
     - [Precommit and Postmerge](#precommit-and-postmerge)
   - [License](#license)
 
-## Quick Start
-### Start with this template
-* This project using `yarn` as package manager.
-* Clone this project to your computer `git clone https://github.com/viandwi24/nuxt3-awesome-starter`
-* Install dependencies `yarn install`
-* Run `yarn dev` to start development server and open `http://localhost:3000` in your browser
-### Deploy as Static Site
-* Run `yarn generate` to build the project
-* Serve `dist/` folder
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
 
 
-## Built-in Components
+## 快速启动
+
+从这个模板开始
+*这个项目使用“yarn”作为包管理器。
+*将此项目克隆到您的计算机' git Clone https://github.com/vikim540/nuxt3-cmer '
+*安装依赖' yarn Install '
+*运行' yarn dev '启动开发服务器，并在浏览器中打开' http://localhost:3000 '
+
+作为静态站点部署
+*运行“yarn generate”来构建项目
+*服务“dist/”文件夹
+[部署文档](https://v3.nuxtjs.org/docs/deployment)。
+
+
+## 内置组件
 - [x] Footer
 - [x] Button
 - [x] Anchor (link)
@@ -119,31 +98,30 @@ Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
     - [x] Sidebar
 - [ ] Modal
 
-## Notes
-### Nuxt Content
-With Nuxt Content, you can just create markdown file (recommended) inside `content` folder.  
-But this is only available for SSR (Server Side Rendering) mode. Static mode still not working, you can see the issue https://github.com/nuxt/content/issues/1202
-For now, you can follow 
+## 笔记
+### Nuxt 内容
+使用 Nuxt Content，您可以在 `content` 文件夹内创建 .md 文件（推荐）。
+但这仅适用于 SSR（服务器端渲染）模式。静态模式还是不行，可以看问题[nuxt/content#1202](https://github.com/nuxt/content/issues/1202)  现在可以关注
 
-### Custom Workspace Snippets
-This workspace including custom snippets for VSCode.
+### 自定义工作区片段
+此工作区包括 VSCode 的自定义片段。
 - **n3:content**  
   content template with markdown
 - **n3:page**  
   page template
 
-### Styles
-Tailwindcss import managed by windicss.
-and you can add custom styles in :
+### 风格
+由 windicss 管理的 Tailwindcss 导入。您可以在以下位置添加自定义样式：
+
 ```
 /path/to/assets/sass/app.scss
 ```
-### Theme (Dark Mode)
-ThemeManager is a plugin that allows you to switch between themes. this lib in :
+### 主题（夜晚模式）
+ThemeManager 是一个允许您在主题之间切换的插件。这个库在：
 ```
 /path/to/utils/theme.ts
 ```
-`Thememanager` is a function-class construct when app.vue before mounted. theme construct inside `AppSetup()` in `/path/to/app.vue` :
+`Thememanager` 在挂载之前是一个函数类构造 `AppSetup()` 里面的主题构造 `/path/to/app.vue` :
 ```vue
 <!-- /path/to/app.vue -->
 <script lang="ts" setup>
@@ -152,7 +130,7 @@ import { AppSetup } from '~/utils/app';
 AppSetup()
 </script>
 ```
-To change theme, you can direct set theme from state `theme.setting`, example :
+要更改主题，您可以直接从 state 设置主题`theme.setting`，例如：
 ```vue
 <script lang="ts" setup>
 import { IThemeSettingOptions } from '~/utils/theme'
@@ -160,44 +138,42 @@ const themeSetting = useState<IThemeSettingOptions>('theme.setting')
 themeSetting.value = 'dark'
 </script>
 ```
-When you change state `theme.setting`, it will automatically change theme.
+当你改变状态`theme.setting`时，它会自动改变主题。
 
-Theme Setting have 4 options :
+主题设置有 4 个选项：
 - `light`
 - `dark`
-- `system` (operating system theme)
-- `realtime` (realtime theme, if 05:00 - 17:00, it will change to light theme, otherwise dark)
+- `system` (操作系统主题)
+- `realtime` (实时主题，如果05:00-17:00，将变为浅色主题，否则为深色)
 
-We have state `theme.current`, this state return `light` or `dark` theme. basically it's process from `theme.setting`.
-dont change theme with this state.
-### Localization
-Localization is a plugin that allows you to switch between languages. this lib in :
+我们有状态`theme.current`，这个状态返回`light`或`dark`主题。基本上是从`theme.setting`. 不要用这种状态改变主题。
+### 本地化语言
+本地化是一个允许您在语言之间切换的插件。这个库在：
 ```
 /path/to/utils/lang.ts
 ```
-`LanguageManager` is a function-class construct when app.vue before mounted.
-this lib depend on [@intlify/nuxt3](https://github.com/intlify/nuxt3)
-lang construct inside `AppSetup()` in `/path/to/app.vue` :
+`LanguageManager` 在挂载之前是一个函数类构造。这个库依赖于内部的  [@intlify/nuxt3](https://github.com/intlify/nuxt3)
+lang 构造： `AppSetup()` in `/path/to/app.vue` :
 <!-- /path/to/app.vue -->
 <script lang="ts" setup>
 import { AppSetup } from '~/utils/app';
 // app setup
 AppSetup()
 </script>
-To change language, you can direct set language from state `lang.setting`, example :
+要更改语言，您可以直接从 state 设置语言 `lang.setting`, example :
 ```vue
 <script lang="ts" setup>
 const langSetting = useState<string>('locale.setting')
 langSetting.value = 'en'
 </script>
 ```
-When you change state `locale.setting`, it will automatically change language.
+当你改变 state `locale.setting`时，它​​会自动改变语言。
 
-### Generate Locales
-I made an automatic tool to automatically translate to all languages ​​that have been prepared in the ./locales/ folder
-So, you can just update "locales/en.yml" and run this tools, it will automatically translate to all languages.
+### 生成语言环境
+我做了一个自动翻译成./locales/文件夹中已经准备好的所有语言的自动工具所以，你只需更新“locales/en.yml”并运行这个工具，它就会自动翻译成所有语言。
 
-You can just run :
+你可以运行：
+ 
 ```
 yarn generate:locales
 
@@ -206,14 +182,14 @@ yarn generate:locales
 node ./tools/translator.js ./locales en.yml
 ```
 
-### Icons
-This project using unplugin-icons for auto generate and import icon as component.
+### 图标
+该项目使用 unplugin-icons 自动生成和导入图标作为组件。
 
-You can see collection icon list in : [https://icones.js.org/](https://icones.js.org/)
+您可以在以下网址查看收藏图标列表： [https://icones.js.org/](https://icones.js.org/)
 
-you can use `<prefix-collection:icon />` or `<PrefixCollection:Icon />`.
+可以使用 `<prefix-collection:icon />` or `<PrefixCollection:Icon />`.
 
-in this project, configuration prefix as a "icon", you can see in `nuxt.config.ts` :
+在这个项目中，配置前缀为“图标”，您可以在 `nuxt.config.ts` :
 ```js
 export default defineNuxtConfig({
     ...
@@ -235,7 +211,7 @@ export default defineNuxtConfig({
 })
 ```
 
-Example :
+例子 ：
 ```vue
 // use icon from collection "Simple Icons" and name icon is "nuxtdotjs"
 <IconSimpleIcons:nuxtdotjs />
@@ -243,13 +219,10 @@ Example :
 // use icon from collection "Unicons" and name icon is "sun"
 <IconUil:sun />
 ```
-### Precommit and Postmerge
-This project using husky and commitlint for precommit and postmerge.
-when you commit, it will check your commit message and running "yarn lint-staged" to check your staged files.
-configuration in : `/path/to/.husky/pre-commit` and `/path/to/commitlint.config.js`
+### 预提交和后合并
+该项目使用 husky 和 ​​commitlint 进行 precommit 和 postmerge。当你提交时，它会检查你的提交信息并运行“yarn lint-staged”来检查你的暂存文件。中的配置： `/path/to/.husky/pre-commit` 和 `/path/to/commitlint.config.js`
 
-And when Postmerge, it will run "yarn" to automatically install new dependencies.
-configuration in `/path/to/.husky/post-merge`
+并且当 Postmerge 时，它​​会运行“yarn”来自动安装新的依赖项。配置在 `/path/to/.husky/post-merge`
 
-## License
-This project is licensed under the MIT license, Copyright (c) 2022 Alfian Dwi Nugraha. For more information see the [LICENSE](LICENSE.md) file.
+## 许可证
+由于项目来自于网络资源整合，而该项目在 MIT 许可下获得许可，版权所有 (c) 2022 Alfian Dwi Nugraha。有关详细信息，请参阅 [LICENSE](LICENSE.md) 文件.

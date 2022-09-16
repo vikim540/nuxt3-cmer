@@ -17,14 +17,14 @@ export default defineNuxtConfig({
   // app
   app: {
     head: {
-      title: 'Nuxt 3 Awesome Starter',
-      titleTemplate: '%s - Nuxt 3 Awesome Starter',
+      title: 'Nuxt 3 CMER集團 技術部起始模板',
+      titleTemplate: '%s - CMER - Nuxt 3 Starter',
       meta: [
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
         {
           hid: 'description',
           name: 'description',
-          content: 'Nuxt 3 Awesome Starter',
+          content: 'Nuxt 3 cmer Starter',
         },
       ],
       link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
@@ -86,9 +86,9 @@ export default defineNuxtConfig({
   intlify: {
     localeDir: 'locales',
     vueI18n: {
-      locale: 'en',
-      fallbackLocale: 'en',
-      availableLocales: ['en', 'id', 'ja', 'ko'],
+      locale: 'tc',
+      fallbackLocale: 'tc',
+      availableLocales: ['tc', 'cn', 'en', 'id', 'ja', 'ko'],
     },
   },
 
@@ -117,7 +117,7 @@ export default defineNuxtConfig({
       mdc: true,
     },
     highlight: {
-      theme: 'github-dark',
+      theme: 'github-light',
     },
   },
 })

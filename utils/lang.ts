@@ -9,6 +9,16 @@ export interface ILocales {
 }
 
 export const availableLocales: ILocales = {
+  tc: {
+    name: '中文繁體',
+    iso: 'zh-HK',
+    flag: '🇭🇰',
+  },
+  cn: {
+    name: '中文简体',
+    iso: 'zh-CN',
+    flag: '🇨🇳',
+  },
   en: {
     name: 'English',
     iso: 'en',
@@ -41,10 +51,10 @@ export function LanguageManager() {
     try {
       const foundLang = window
         ? window.navigator.language.substring(0, 2)
-        : 'en'
-      return availableLocales[foundLang] ? foundLang : 'en'
+        : 'zh-HK'
+      return availableLocales[foundLang] ? foundLang : 'zh-HK'
     } catch (error) {
-      return 'en'
+      return 'zh-HK'
     }
   }
   const getUserLocale = (): string =>

@@ -36,7 +36,7 @@ const menus = computed((): IMenuItem[] => [
         <Anchor
           class="underline font-bold"
           :text="$t('others.learn_more')"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          href="https://github.com/vikim540/nuxt3-cmer"
         />
       </div>
     </template>
@@ -73,7 +73,7 @@ const menus = computed((): IMenuItem[] => [
           <ThemeSwitcher />
           <Anchor
             class="hover:no-underline hover:text-slate-900 hover:dark:text-white text-lg flex self-center items-center"
-            href="https://github.com/viandwi24/nuxt3-awesome-starter"
+            href="https://github.com/vikim540/nuxt3-cmer"
             title="Github"
           >
             <IconMdi:github-face />
@@ -130,7 +130,7 @@ const menus = computed((): IMenuItem[] => [
         <Button
           type="secondary"
           title="Github"
-          href="https://github.com/viandwi24/nuxt3-awesome-starter"
+          href="https://github.com/vikim540/nuxt3-cmer"
         >
           <IconMdi:github-face />
           <span class="ml-1">Github</span>

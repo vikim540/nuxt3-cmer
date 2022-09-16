@@ -1,41 +1,41 @@
 components:
   language_switcher:
-    change_language: change language
+    change_language: 选择语言
   theme_switcher:
-    theme: theme
-    change_theme: change theme
+    theme: 主题
+    change_theme: 主题更换
 pages:
   index:
-    title: 111nuxt 3[]awesome[]starter
+    title: cmer []nuxt 3[]中港组
   404:
-    title: page not found
+    title: 页面丢失
+  about:
+    nav: 关于我们
+    title: 模板简介
+    description: 这是一个模板简介
   blank:
-    nav: blank
-    title: blank page
-    description: this is a blank page
-    just_blank_page_with_title: just blank page with title
-  post:
-    nav: post
-    title: post
-    description: this is a post page
+    nav: 单页
+    title: 单页模板
+    description: 这是一个单页模板
+    just_blank_page_with_title: 这是一个单页模板ma ?
   test:
-    nav: test
-    title: testing
-    description: this is a test page
-    counter: counter
+    nav: 内容模块
+    title: 内容模块
+    description: 这是一个内容模块模板
+    counter: 计数
     increment: increment
     decrement: decrement
     reset: reset
     identity: identity
     full_name: fullName
-  about:
-    nav: getting started
-    title: getting started
-    description: this is a getting started page
+  post:
+    nav: 列表模板
+    title: 列表模板
+    description: 这是一个列表模块模板
   setting:
-    nav: setting
-    title: setting
-    description: this is a setting page
+    nav: 页面设置
+    title: 设置
+    description: 这是一个页面设置模板 
     sections:
       validate_username:
         title: validate github profile
@@ -58,15 +58,15 @@ pages:
         title: directory listing
         description: if no index file is present within a directory, the directory contents will be displayed.
   dashboard:
-    nav: dashboard
-    title: dashboard
+    nav: 后台页面
+    title: CMER后台
     index:
-      nav: home
-      title: home
+      nav: 首页设置
+      title: 首页细节
 banners:
-  welcome: hello, welcome to  %{app_name}!
+  welcome: 你好欢迎来到 %{app_name} !
 others:
-  learn_more: learn more
-  copy: copy
-  enabled: enabled
-  disabled: disabled
+  learn_more: 了解更多
+  copy: 复制
+  enabled: 启用
+  disabled: 禁用
